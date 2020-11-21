@@ -1,0 +1,10 @@
+.image
+{
+border-radius: 8px;
+float:right;
+width:300 ;
+height:300;
+}
+body {  
+    background-color: lightblue;  
+}  
