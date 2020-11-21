@@ -1,10 +1,237 @@
-.image
-{
-border-radius: 8px;
-float:right;
-width:300 ;
-height:300;
+h1 {
+    color: #66BFBF;
+    font-size: 5rem;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-family: 'Crafty Girls', cursive;
 }
-body {  
-    background-color: lightblue;  
-}  
+h2{
+    color: #66BFBF;
+    font-family: 'Crafty Girls', cursive;
+    font-size: 2.5em;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #b7472a;
+    border-width: 7px;
+    width: 50%;
+}
+.a {
+    border-color: #8ac6d1;
+    width: 5%;
+}
+.b {
+    border-color: #f67280;
+    width: 5%;
+}
+h3 {
+    color: rgb(20, 117, 121);
+    font-family: 'Crafty Girls', cursive;
+    font-size: 1.5em;
+}
+body {
+    background-color: #dae7e9;
+    font-size: 1.3em;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.para1 {
+    color: #66BFBF;
+    margin-block-start: 0;
+    font-size: 1.5rem;
+}
+.my-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+.me {
+    width: 60%;
+    margin: auto;
+}
+.man {
+    text-align: left;
+}
+.profile-para {
+    width: 80%;
+    margin: auto;
+    padding: 140px 0 50px 0;
+    font-size: 2rem;
+}
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container {
+    
+}
+.bottom-container {
+    width: 60%;
+    margin: auto;
+}
+.skill-h3, .para-h3 {
+    text-align: left;
+    margin: auto;
+}
+.footer {
+    width: 50%;
+    margin: auto;    
+}
+.footer-link-img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    top: 7px;
+}
+.footer-link {
+    text-decoration: none;
+}
+.btn {
+    text-decoration: none;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute ;
+    left: 300px;
+    bottom: 300px;
+}
+.left-bird {
+    position: absolute;
+    left: 200px;
+    bottom: 450px;
+    width: 200px;
+}
+#footer-bucket {
+    width: 100%;
+    padding-top: 15px;
+    background-color: #66BFBF;
+}
+.right-bird {
+    position: absolute;
+    right: 350px;
+    bottom: 280px;
+    width: 200px;
+}
+.right-bird-top {
+    position: absolute;
+    width: 200px;
+    top: 55px;
+    right: 70px;
+}
+.sl1 {
+    margin: 0 30px 0 0;
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+}
+.sl2 {
+    margin: 0 20px 0 0;
+    border-radius: 100%;
+    width: 25%;
+    float: right;
+}
+.skill-row {
+    line-height: 2;
+    width: 60%;
+    margin: 50px auto 50px auto;
+}
+.hobby-list {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    line-height: 3;
+    font-size: 1.5rem;
+}
+.work {
+    text-align: center;
+    margin: auto;
+}
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
+.contact-me {
+    width: 80%;
+    margin: auto;
+}
+
+#touch {
+    float: left;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+#java {
+    position: relative;
+    top: 25px;
+}
+#ml {
+    position: relative;
+    top: 15px;
+}
+#myself {
+    float: left;
+}
+#hello {
+    position: relative;
+    top: 80px;
+    right: 55px;
+}
+#copyright {
+    margin-bottom: 0;
+}
+#work-exp {
+    margin-bottom: 0;
+}
+#my-hobby-head {
+    margin-bottom: 0;
+}
+.btn {
+    enable-background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+border-radius: 12px;
+caret-color: #FFFFFF;
+font-family: 'Crafty Girls', cursive;
+font-size: 20px;
+font-weight: 100;
+padding-right: 10px;
+padding-left: 10px;
+box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-direction: 1px 1px 20px 0px #000000;
+    -moz-window-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border-color: solid #337FED 1px;
+    text-decoration-line: none;
+    font-display: inline-block;
+    cursor: pointer;
+    text-align-last: center;
+    }
+    
+.btn:hover {
+border-color: solid #337FED 1px;
+enable-background: #30E3CB;
+background-image: -webkit-linear-gradient(top, #30E3CB, #2BC48D);
+background-image: -moz-linear-gradient(top, #30E3CB, #2BC48D);
+background-image: -ms-linear-gradient(top, #30E3CB, #2BC48D);
+background-image: -o-linear-gradient(top, #30E3CB, #2BC48D);
+background-image: linear-gradient(to bottom, #30E3CB, #2BC48D);
+-webkit-text-size-adjust: 20px;
+border-end-end-radius: 20px;
+border-radius: 20px;
+text-decoration-line: none;
+}
